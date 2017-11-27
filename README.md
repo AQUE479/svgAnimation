@@ -116,7 +116,7 @@ function init(option) {
     return this
 ```
 
-## 设置配置项以及数据seOpion函数
+## 设置配置项以及数据setOpion函数
 ```
 function setOption(option) {
 /** 对传入的数据进行遍历，与svg对象属性名对应的就更新其配置，同时解决了不是所有的属性的有 */
