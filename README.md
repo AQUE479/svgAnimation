@@ -119,7 +119,7 @@ function init(option) {
 ## 设置配置项以及数据setOpion函数
 ```
 function setOption(option) {
-/** 对传入的数据进行遍历，与svg对象属性名对应的就更新其配置，同时解决了不是所有的属性的有 */
+/** 对传入的数据进行遍历，与svg对象属性名对应的就更新其配置，同时解决了不是所有的属性都传入的情况 */
     for (let item in option) {
     /** 如果对象的该属性也是一个对象时再对其中的子属性进行遍历 */
         if (typeof (option[item]) == "object") {
