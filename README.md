@@ -75,7 +75,8 @@ let option = {
 
 ## 创建实例init函数
 ```
-let op = this.option
+function init(option) {
+    let op = this.option
     let container = document.getElementById('container')
     let svg
     /** 创建元素 */
